@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form-container {
+  border: 1px solid #963838;
+  margin: auto;
+  width: 50%;
+  padding: 25px;
+}
+
+.form-container h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input[type="text"] {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-check {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+}
+
+button {
+  background: rgb(36, 10, 6);
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #5645;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(123, 129, 123);
+}
+
+/* Positioning : Absolute, relative, fixed static */
+.position {
+  width: 500px;
+  height: 500px;
+  background-color: orange;
+  border: 2px solid black;
+  margin: 50px;
+  position: relative;
+  /* z-index: 23; */
+}
+
+.absolute {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  z-index: 199;
+}
+
+.relative {
+  width: 100px;
+  height: 100px;
+  background-color:green;
+  top: 0px;
+  left: 0px;
+  position: relative;
+  z-index: 100;
+}
+
+table{
+    width: 40%;
+    margin: auto;
+}
+
+table, tr, th, td{
+    border: 1px solid #000;
+}
+
+tr:hover{
+    color: brown;
+    background-color: chartreuse;
+}
+td:hover{
+    background-color: #e6d7d7;
+}

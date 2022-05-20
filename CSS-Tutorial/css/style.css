@@ -1,0 +1,166 @@
+/* h1 {
+  color: royalblue;
+} */
+
+/* Universal Selector - * */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+}
+
+body {
+  /* COLORS */
+  /* color :red */
+  /* color: #555 */
+  /* color:rgb(0, 0, 255) */
+  /* color:rgba(0, 0, 0, 0)(32, 80, 56, 0); */
+  color: rgb(0, 0, 0);
+
+  /* FONTS */
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-size: 20px;
+  font-weight: 100;
+}
+
+p {
+  /* Text Formatting */
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: tomato;
+  line-height: 30px;
+}
+
+.box {
+  background-color: lawngreen;
+  background: #d8baba;
+}
+
+#box {
+  background-color: purple;
+}
+
+.box p {
+  font-size: 12px;
+  color: purple;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+.box h1 {
+  font-size: 25px;
+}
+
+#box p {
+  font-size: 15px;
+  color: teal;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+#box h1 {
+  font-size: 40px;
+}
+
+.box-model {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  padding: 25px;
+  border: 50px solid #000;
+  background: #dfdfdf;
+}
+
+.block {
+  background: indigo;
+  /* margin: 50px;
+  padding: 25px; */
+  border: 2px solid #000;
+}
+
+.block p {
+  color: lightpink;
+  text-align: left;
+  margin: 25px 50px 75px 90px;
+  border: 1px solid green !important;
+  padding: 25px 50px 75px 90px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.List ul {
+  /* list-style-image: url(../Images/HtmlCssJs.png); */
+  list-style-type: none;
+}
+
+a:hover {
+  color: green;
+}
+
+a:visited {
+  color: teal;
+}
+
+a:active {
+  color: aqua;
+}
+
+.List2 ol li:nth-child(odd) {
+  list-style-type: none;
+  display: inline;
+  background: #d8baba;
+  color: rgb(189, 36, 100);
+}
+
+.List2 ol li:nth-child(even) {
+  background: #dfdfdf;
+  display: inline;
+}
+
+/* Float elements */
+.float {
+  margin: 20px;
+}
+
+.float img {
+  width: 100px;
+  height: 100px;
+}
+
+.image-box {
+  margin: 20px;
+}
+
+.image-box img{
+  float: left;
+}
+
+.image-box p{
+  font-size: 10px;
+  color: darkblue;
+}
+
+
+
+.float-box {
+  float: left;
+  width: 33.33%;
+  background: #949191;
+  padding: 20px;
+  border-right: 2px solid #000;
+}
+
+.float-box:last-child{
+  border-right: 0px;
+}
+
+.float-box h1 {
+  font-size: 25px;
+}
+
